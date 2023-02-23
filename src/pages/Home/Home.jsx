@@ -1,51 +1,52 @@
 import React from 'react';
+import Carousel from 'react-bootstrap/Carousel';
 import Slide1 from '../Imagenes/Slide1.jpg';
 import Slide2 from '../Imagenes/Slide2.jpg';
 import Slide3 from '../Imagenes/Slide3.jpg';
+import './Home.css';
 
 
-
-const Home = () => {
+const Home = () =>{
   return (
+    <Carousel>
+    <Carousel.Item>
+      <img
+        className="Carousel"
+        src={Slide1}
+        alt="Imagen1"
+      />
+      <Carousel.Caption>
+        <h3>Contamos con comedores privados</h3>
+        <p>En nuestros comedores encontrarás la privacidad para una reunión de trabajo o citas romanticas</p>
+      </Carousel.Caption>
+    </Carousel.Item>
+    <Carousel.Item>
+      <img
+        className="Carousel"
+        src={Slide2}
+        alt="Imagen2"
+      />
 
-<div id="carouselExampleCaptions" className="carousel slide">
-  <div className="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div className="carousel-inner">
-    <div className="carousel-item active">
-      <img src={Slide1} className="d-block w-100" alt="imagen1"/>
-      <div className="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
-      </div>
-    </div>
-    <div className="carousel-item">
-      <img src={Slide2} className="d-block w-100" alt="imagen2"/>
-      <div className="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
-      </div>
-    </div>
-    <div className="carousel-item">
-      <img src={Slide3} className="d-block w-100" alt="imagen3"/>
-      <div className="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
-    </div>
-  </div>
-  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Previous</span>
-  </button>
-  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Next</span>
-  </button>
-</div>
+      <Carousel.Caption>
+        <h3>Second slide label</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </Carousel.Caption>
+    </Carousel.Item>
+    <Carousel.Item>
+      <img
+        className="Carousel"
+        src={Slide3}
+        alt="Imagen3"
+      />
+
+      <Carousel.Caption>
+        <h3>Third slide label</h3>
+        <p>
+          Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+        </p>
+      </Carousel.Caption>
+    </Carousel.Item>
+  </Carousel>
 
 )
 }

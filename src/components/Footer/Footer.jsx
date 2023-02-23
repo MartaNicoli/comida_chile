@@ -11,7 +11,7 @@ const Footer = () => {
             <li className="nav-item"><a href="#" className="nav-link px-2 text-white">Menu</a></li>
             <li className="nav-item"><a href="#" className="nav-link px-2 text-white">Reservas</a></li>
             <li className="nav-item"><a href="#" className="nav-link px-2 text-white">Delivery</a></li>
-            <li className="nav-item"><a href="#" className="nav-link px-2 text-white">Acerca</a></li>
+            <li className="nav-item"><a href="#" className="nav-link px-2 text-white">Acerca De</a></li>
           </ul>
       
 
@@ -19,8 +19,6 @@ const Footer = () => {
 
       </footer>
     </div>
-
-
   )
 }
 

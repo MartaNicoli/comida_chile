@@ -1,6 +1,5 @@
 import './App.css';
 import Allroutes from './routes/Allroutes/Allroutes';
-//import { Routes, route } from 'react-router-dom';
 //import Locales from './pages/Locales/Locales';
 //import Home from './pages/Home/Home'; 
 //import Delivery from './pages/Delivery/Delivery';

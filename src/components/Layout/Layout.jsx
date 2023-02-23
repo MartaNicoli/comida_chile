@@ -4,6 +4,7 @@ import Footer from "../Footer/Footer";
 import { Outlet } from "react-router-dom";
 import  Card  from "../Card/Card";
 
+
     
 
 const Layout = () =>{
