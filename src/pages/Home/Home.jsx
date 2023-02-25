@@ -1,12 +1,33 @@
 import React from 'react';
-import Carousel from 'react-bootstrap/Carousel';
-import Slide1 from '../Imagenes/Slide1.jpg';
+/*import Carousel from 'react-bootstrap/Carousel';
+import Slide1 from './Imagenes/Slide1.jpg';
 import Slide2 from '../Imagenes/Slide2.jpg';
-import Slide3 from '../Imagenes/Slide3.jpg';
+import Slide3 from '../Imagenes/Slide3.jpg';*/
 import './Home.css';
+import Carrusel from '../Imagenes/Imagenes';
 
 
-const Home = () =>{
+
+function Home() {
+  const images = [
+    { src: '../Imagenes/Slide1.jpg', alt: 'imagen1' },
+    { src: '../Imagenes/Slide2.jpg', alt: 'imagen2' },
+    { src: '../Imagenes/Slide3.jpg', alt: 'imagen3' },
+  ];
+
+  return (
+    <div>
+      <h1>Mis Imagenes</h1>
+      <Carrusel images={images} />
+    </div>
+  );
+}
+
+export default Home;
+
+
+
+    {/*const Home = () =>{
   return (
     <Carousel>
     <Carousel.Item>
@@ -58,8 +79,7 @@ export default Home
 
 
 
-
-    {/*<div className="container" style={{ margintop:40, marginBotom:40 }}>
+<div className="container" style={{ margintop:40, marginBotom:40 }}>
 
       <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
