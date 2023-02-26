@@ -64,25 +64,25 @@ const Locales = () => {
 export default Locales
 
 
-                            {/*<Table striped bordered hover>
-                            <thead>
-                                <tr>
+                        //     <Table striped bordered hover>
+                        //     <thead>
+                        //         <tr>
                                   
-                                    <th>Local</th>
-                                    <th>Dirección</th>
-                                    <th>Región</th>
-                                    <th>Horario</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                 <th>{local.name}</th>
-                                 <th>{local.direccion}</th>
-                                 <th>{local.region}</th>
-                                <th>{local.horario}</th>
-                                </tr>
-                            </tbody>
-                        </Table> */}
+                        //             <th>Local</th>
+                        //             <th>Dirección</th>
+                        //             <th>Región</th>
+                        //             <th>Horario</th>
+                        //         </tr>
+                        //     </thead>
+                        //     <tbody>
+                        //         <tr>
+                        //          <th>{local.name}</th>
+                        //          <th>{local.direccion}</th>
+                        //          <th>{local.region}</th>
+                        //         <th>{local.horario}</th>
+                        //         </tr>
+                        //     </tbody>
+                        // </Table> 
                         
                     
             

@@ -1,7 +1,7 @@
 import Locales from '../../pages/Locales/Locales';
 import Home from '../../pages/Home/Home'; 
 import Login from '../../pages/Login/Login';
-/*import Menu from '../../pages/Menu/Menu';*/
+import Menu from '../../pages/Menu/Menu';
 import Reservas from '../../pages/Reservas/Reservas'; 
 import Users from '../../pages/Admin/users/User';
 import Layout from '../../components/Layout/Layout';
@@ -20,7 +20,7 @@ const Allroutes = () => {
             <Route path='/locales' element={<Locales/>}/>
             <Route path='/comida_chile' element={<Home/>}/>
             <Route path='/login' element={<Login/>}/>
-            {/*<Route path='/menu' element={<Menu/>}/>*/}
+            <Route path='/menu' element={<Menu/>}/>
             <Route path='/reservas' element={<Reservas/>}/>
             <Route path='/users' element={<Users/>}/>     
             <Route path='/card' element={<Card/>}/>  
