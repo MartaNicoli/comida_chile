@@ -11,7 +11,7 @@ const Navigation = () => {
         <div>
             <>
             <Navbar collapseOnSelect expand='lg' variant='dark' bg='dark'>
-                <Navbar.Brand as={NavLink} to='/'>Comida Típica Chilena</Navbar.Brand>
+                <Navbar.Brand as={NavLink} to='/comida_chile'>Comida Típica Chilena</Navbar.Brand>
                 <Navbar.Toggle aria-controls='responsive-navbar-nav' />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className='me-auto'>

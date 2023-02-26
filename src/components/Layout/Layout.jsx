@@ -12,7 +12,7 @@ return (
 <div>
     <Navigation/>
     <Outlet/>
-    <Home/>
+    {/*<Home/>*/}
     <Card/>
     <Footer/>
  
