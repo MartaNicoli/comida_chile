@@ -18,7 +18,7 @@ const Menu = () => {
 
         const docs = response.docs.map((doc) => {
           const data = doc.data(); //firestore guarda la información de cada documento en data()
-          data.id = doc.id; // El id se igual al ID del plato de la base de datos
+          data.id = doc.id; // El id es igual al ID del plato de la base de datos
           return data;
         })
 

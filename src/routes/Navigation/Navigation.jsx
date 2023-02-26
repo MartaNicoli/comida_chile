@@ -16,10 +16,10 @@ const Navigation = () => {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className='me-auto'>
                         <Nav.Link as={NavLink} to='/locales'>Locales</Nav.Link>
-                        <Nav.Link href='/menu'>Menu</Nav.Link>
-                        <Nav.Link href='/reservas'>Reservas</Nav.Link>
-                        <Nav.Link href='/delivery'>Delivery</Nav.Link>
-                        <Nav.Link href='/login'>Login</Nav.Link>
+                        <Nav.Link as={NavLink} to='/menu'>Menu</Nav.Link>
+                        <Nav.Link as={NavLink} to='/reservas'>Reservas</Nav.Link>
+                        <Nav.Link as={NavLink} to='/login'>Login</Nav.Link>
+                        <Nav.Link as={NavLink} to='/AcercaDe'>AcercaDe</Nav.Link>
                         {/*<Nav.Link href='/'>Login</Nav.Link>*/}
                     </Nav>
                 </Navbar.Collapse>
