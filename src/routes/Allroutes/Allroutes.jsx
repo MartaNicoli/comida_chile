@@ -1,13 +1,14 @@
 import Locales from '../../pages/Locales/Locales';
 import Home from '../../pages/Home/Home'; 
 import Login from '../../pages/Login/Login';
-import Menu from '../../pages/Menu/Menu';
 import Reservas from '../../pages/Reservas/Reservas'; 
 import Users from '../../pages/Admin/users/User';
 import Layout from '../../components/Layout/Layout';
 import { Routes , Route } from 'react-router-dom';
 import Card from '../../components/Card/Card';
 import AcercaDe from '../../components/AcercaDe/AcercaDe';
+import Menu from '../../pages/Menu/Menu';
+
 
 
 
