@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
-import { db } from '../../config/firebase';
+import { db } from '../../Config/firebase';
 import { collection, getDocs } from 'firebase/firestore';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';

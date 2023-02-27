@@ -1,5 +1,5 @@
 import './App.css';
-import Allroutes from './routes/Allroutes/Allroutes';
+import Allroutes from './Routes/Allroutes/Allroutes';
 //import Locales from './pages/Locales/Locales';
 //import Home from './pages/Home/Home'; 
 //import Delivery from './pages/Delivery/Delivery';

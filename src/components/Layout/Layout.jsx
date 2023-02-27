@@ -1,4 +1,4 @@
-import  Navigation from "../../routes/Navigation/Navigation";
+import  Navigation from "../../Routes/Navigation/Navigation";
 import Home from "../../pages/Home/Home";
 import Footer from "../Footer/Footer";
 import { Outlet } from "react-router-dom";
